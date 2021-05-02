@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "execute")
+@Table(name = "executes")
 public class Executive {
         
 	@Id
@@ -19,6 +19,8 @@ public class Executive {
 	
 	@Column(length = 10000)
 	private String department;
+	
+	
 
 	 
 
